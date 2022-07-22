@@ -1,4 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client'
 
-ReactDOM.render(<h1>Small React!</h1>, document.getElementById('root'));
+createRoot(document.getElementById('root')).render(<h1>Small React!</h1>);
